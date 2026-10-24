@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>duck.sehee 앱</title>
+    <meta name="description" content="일상을 기록하는 iPhone 앱 — Home Barista, 가자,찍자!, Pet Logs">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&family=Gothic+A1:wght@400;700;800&display=swap">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Gothic A1', -apple-system, sans-serif; background: #FFCF33; color: #1D2433; min-height: 100vh; }
+        main { max-width: 480px; margin: 0 auto; padding: 48px 16px 40px; display: flex; flex-direction: column; gap: 16px; }
+        header { display: flex; flex-direction: column; align-items: center; gap: 12px; text-align: center; margin-bottom: 12px; }
+        header svg { width: 96px; height: 96px; }
+        h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 32px; }
+        header p { font-weight: 700; font-size: 16px; }
+        a.app { display: flex; align-items: center; gap: 16px; padding: 16px; background: #FFFBF0; border: 3px solid #1D2433; border-radius: 24px; color: inherit; text-decoration: none; transition: transform .15s; }
+        a.app:hover, a.app:focus-visible { transform: translateY(-2px); }
+        a.app img { width: 64px; height: 64px; border-radius: 15px; flex-shrink: 0; }
+        .text { display: flex; flex-direction: column; gap: 4px; min-width: 0; flex: 1; }
+        .name { font-family: 'Jua', sans-serif; font-size: 22px; }
+        .desc { font-size: 14px; color: #3A4256; }
+        .go { font-weight: 800; font-size: 13px; white-space: nowrap; padding: 8px 12px; background: #1D2433; color: #FFFBF0; border-radius: 999px; }
+        footer { text-align: center; font-weight: 800; font-size: 14px; margin-top: 12px; }
+        footer a { color: #1D2433; }
+    </style>
+</head>
+<body>
+<main>
+    <header>
+        <svg viewBox="0 0 200 200" role="img" aria-label="duck.sehee 오리 캐릭터"><path d="M34 118 L16 96 L48 108 Z" fill="#FFFBF0" stroke="#1D2433" stroke-width="6" stroke-linejoin="round"/><ellipse cx="98" cy="134" rx="70" ry="44" fill="#FFFBF0" stroke="#1D2433" stroke-width="6"/><circle cx="128" cy="74" r="38" fill="#FFFBF0" stroke="#1D2433" stroke-width="6"/><path d="M162 70 Q190 72 188 84 Q174 94 158 88 Z" fill="#F2762E" stroke="#1D2433" stroke-width="6" stroke-linejoin="round"/><circle cx="138" cy="66" r="6" fill="#1D2433"/><path d="M66 128 Q92 152 120 128" fill="none" stroke="#1D2433" stroke-width="6" stroke-linecap="round"/></svg>
+        <h1>duck.sehee</h1>
+        <p>일상을 기록하는 iPhone 앱</p>
+    </header>
+
+    <a class="app" href="https://apps.apple.com/kr/app/home-barista/id6814686237">
+        <img src="assets/icons/home-barista.png" alt="">
+        <span class="text"><span class="name">Home Barista</span><span class="desc">집에서 내리는 한 잔을 기록하는 앱</span></span>
+        <span class="go">App Store</span>
+    </a>
+    <a class="app" href="https://apps.apple.com/kr/app/id6779831288">
+        <img src="assets/icons/take-and-go.png" alt="">
+        <span class="text"><span class="name">가자,찍자!</span><span class="desc">사진이 그리는 여행 경로 영상</span></span>
+        <span class="go">App Store</span>
+    </a>
+    <a class="app" href="https://apps.apple.com/kr/app/pet-logs/id6761698644">
+        <img src="assets/icons/pet-logs.png" alt="">
+        <span class="text"><span class="name">Pet Logs</span><span class="desc">우리 아이 하루, 한 화면에 기록해요</span></span>
+        <span class="go">App Store</span>
+    </a>
+
+    <footer><a href="https://instagram.com/duck.sehee">@duck.sehee</a></footer>
+</main>
+</body>
+</html>
